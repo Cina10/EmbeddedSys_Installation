@@ -59,19 +59,17 @@ void loop()
   if(touchRead(T9) < 20) {
     send += "2";
   }
-  if(touchRead(T3) < 20) {
+  if(touchRead(T3) < 30) {
     send += "3";
   }
-  if(touchRead(T4) < 30) {
+  if(touchRead(T4) < 25) {
     send += "4";
   }
-  if(touchRead(T5) < 20) {
+  if(touchRead(T6) < 30) {
     send += "5";
   }
-  if(touchRead(T6) < 30) {
-    send += "6";
-  }
   Udp.printf(String(send).c_str(),2);
+  Serial.print(send + "/n");
   Udp.endPacket();
   delay(500);
 }
