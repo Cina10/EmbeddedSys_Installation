@@ -17,6 +17,7 @@ In order to maintain the color and sound assignments they should be connected in
 - tinfoil strip 6 --> GPIO14 aka T6
   
  A visual of the wiring can be seen here: 
+ <br>
  <img src="https://github.com/Cina10/EmbeddedSys_Installation/blob/main/IMG_3300.jpg" width="500">
  <img src="https://github.com/Cina10/EmbeddedSys_Installation/blob/main/IMG_3302.jpg" width="500">
 
