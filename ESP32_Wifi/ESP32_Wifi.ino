@@ -12,7 +12,7 @@ char incomingPacket[255];  // buffer for incoming packets
 void setup()
 {
   int status = WL_IDLE_STATUS;
-  Serial.begin(115200);
+  Serial.begin(pr);
   WiFi.begin(ssid, password);
   Serial.println("");
 
