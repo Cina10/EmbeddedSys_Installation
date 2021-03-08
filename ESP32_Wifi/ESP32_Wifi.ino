@@ -3,8 +3,8 @@
 #include <WiFiUdp.h>
 
 //set up to connect to an existing network (e.g. mobile hotspot from laptop that will run the python code)
-const char* ssid = "Fios-P9AQG";
-const char* password = "mind86gym2680would";
+const char* ssid = "****"; // change this to match your wifi credentials 
+const char* password = "****"; // change this to match your wifi credentials 
 WiFiUDP Udp;
 unsigned int localUdpPort = 4210;  //  port to listen on
 char incomingPacket[255];  // buffer for incoming packets
